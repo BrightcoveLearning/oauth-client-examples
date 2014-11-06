@@ -1,0 +1,10 @@
+Setup:
+Install ruby (>= 1.9.2) and rvm.
+cd into this directory, which you should have done.
+$ rvm gemset create oauthclient
+cd to upper directory (cd ..) and cd back to this directory to activate rvm setting.
+$ gem install bundler  (only if you haven't install bundler in this gem environment)
+$ bundle install
+
+Run:
+$ ruby client_credential_example.rb
