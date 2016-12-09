@@ -8,6 +8,15 @@ behalf of the resource owner and with its authorization.
 
 [client-def]: http://tools.ietf.org/html/draft-ietf-oauth-v2-25#section-1.1
 
+## Implementation notes
+
+Note that the samples here will not work without modifications:
+
+* you must replace YOUR_CLIENT_ID placeholders with a valid client id
+* you must replace YOUR_CLIENT_SECRET placeholders with a valid client secret
+* you must replace YOUR_ACCOUNT_ID placeholders with a valid Video Cloud account id
+
+
 ## Credential client registration
 
 Many of these examples use a client credential registration with a
