@@ -24,26 +24,26 @@ public class OltuJavaClient {
     /**
      * Client ID of your client credential.  Change this to match whatever credential you have created.
      */
-    public static final String CLIENT_ID = "c112eb73-f676-40ee-86fa-14e3d4a79d15";
+    public static final String CLIENT_ID = "YOUR_CLIENT_ID";
 
     /**
      * Client secret of your client credential.  Change this to match whatever credential you have created.
      */
     public static final String CLIENT_SECRET =
-            "uL9z0_oNVDQ0T7Q3hND3H7rKF2q6Qi6wt6pQjWdnils19bHVZeJMGOkXdwWlEZqAzVR70LItekJuXcSWFnN7iQ";
+            "YOUR_CLIENT_SECRET";
 
     /**
      * Account on which you want to request a resource. Change this to match the account you want to
      * retrieve resources on.
      */
-    public static final String ACCOUNT_ID = "12345";
+    public static final String ACCOUNT_ID = "YOUR_ACCOUNT_ID";
 
     /**
      * URL from which you are going to request a resource.  The example below is for the Analytics
      * resource server. :account-id will be replaced with {@link ACCOUNT_ID} below.
      */
     public static final String RESOURCE_URL_TPL =
-            "https://data.brightcove.com/analytics-api/videocloud/account/:account-id/report?dimensions=video,player";
+            "https://analytics.api.brightcove.com/v1/data?accounts=:account-id&dimensions=video";
 
     /**
      * Request a fresh access token using the given client ID, client secret, and token request URL,
