@@ -11,15 +11,15 @@
 
 (def client-id
   "The client ID from your client credential."
-  "c112eb73-f676-40ee-86fa-14e3d4a79d15")
+  "YOUR_CLIENT_ID")
 
 (def client-secret
   "The client secret from your client credential."
-  "uL9z0_oNVDQ0T7Q3hND3H7rKF2q6Qi6wt6pQjWdnils19bHVZeJMGOkXdwWlEZqAzVR70LItekJuXcSWFnN7iQ")
+  "YOUR_CLIENT_SECRET")
 
 (def account-id
   "The account ID to fetch Analytics info for."
-  "12345")
+  "YOUR_ACCOUNT_ID")
 
 (def oauth-client
   "An Oltu OAuth client object to use to make requests."
@@ -45,7 +45,7 @@
   "Build URL of the resource you want to access using the access
   token.  The value below is for the Analytics resource server."
   [account-id]
-  (URL. (str "https://data.brightcove.com/analytics-api/videocloud/account/" account-id "/report?dimensions=video,player")))
+  (URL. (str "https://analytics.api.brightcove.com/v1/data?accounts=" account-id "/report?dimensions=video")))
 
 (defn resource-cxn []
   "Yield a fresh HttpURLConnection to the resource server, with the appropriate Authorization
