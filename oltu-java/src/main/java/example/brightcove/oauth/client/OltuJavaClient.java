@@ -19,7 +19,7 @@ public class OltuJavaClient {
     /**
      * URL for requesting OAuth access tokens.
      */
-    public static final String TOKEN_REQUEST_URL = "https://oauth.brightcove.com/v3/access_token";
+    public static final String TOKEN_REQUEST_URL = "https://oauth.brightcove.com/v4/access_token";
 
     /**
      * Client ID of your client credential.  Change this to match whatever credential you have created.
