@@ -9,7 +9,7 @@
 from sanction import Client
 
 # The URL for access token requests
-token_request_url = "https://oauth.brightcove.com/v3/access_token"
+token_request_url = "https://oauth.brightcove.com/v4/access_token"
 
 # Client ID and secret
 
