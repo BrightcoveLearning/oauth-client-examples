@@ -25,5 +25,5 @@ registration might be created as follows:
 
 ```sh
 # With $BC_TOKEN (browser session cookie) and $ACCOUNT_ID (publisher account) variables:
-curl -H "Authorization: BC_TOKEN $BC_TOKEN" -X POST -d 'name=example-client&maximum_scope=[{"identity":{"type":"video-cloud-account","account-id":'$ACCOUNT_ID'},"operations":["video-cloud/analytics/read"]}]' https://oauth.brightcove.com/v3/client_credentials
+curl -H "Authorization: BC_TOKEN $BC_TOKEN" -X POST -d 'name=example-client&maximum_scope=[{"identity":{"type":"video-cloud-account","account-id":'$ACCOUNT_ID'},"operations":["video-cloud/analytics/read"]}]' https://oauth.brightcove.com/v4/client_credentials
 ```
