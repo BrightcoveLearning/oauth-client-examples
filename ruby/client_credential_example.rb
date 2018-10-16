@@ -7,7 +7,7 @@ client_secret = '-1LbGuXeusgI4HhUliY16l7jupPte29K3oIGU7xY9CCqgyw6w0t6rBdgazvj6P1
 
 client = OAuth2::Client.new(client_id, client_secret,
                             site: 'https://data.brightcove.com/',
-                            token_url: 'https://oauth.brightcove.com/v3/access_token')
+                            token_url: 'https://oauth.brightcove.com/v4/access_token')
 token = client.client_credentials.get_token
 
 # replace 12345 with the account_id
