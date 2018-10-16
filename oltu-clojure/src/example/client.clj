@@ -7,7 +7,7 @@
 
 (def token-request-url
   "The URL for access token requests."
-  "https://oauth.brightcove.com/v3/access_token")
+  "https://oauth.brightcove.com/v4/access_token")
 
 (def client-id
   "The client ID from your client credential."
